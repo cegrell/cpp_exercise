@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerachInsertPosition", "Ser
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaximumSubarray", "MaximumSubarray\MaximumSubarray.vcxproj", "{71D15E38-D80D-4C54-A7BC-50A1097BE97E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TimeToBuyOrSell", "TimeToBuyOrSell\TimeToBuyOrSell.vcxproj", "{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{71D15E38-D80D-4C54-A7BC-50A1097BE97E}.Release|x64.Build.0 = Release|x64
 		{71D15E38-D80D-4C54-A7BC-50A1097BE97E}.Release|x86.ActiveCfg = Release|Win32
 		{71D15E38-D80D-4C54-A7BC-50A1097BE97E}.Release|x86.Build.0 = Release|Win32
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Debug|x64.ActiveCfg = Debug|x64
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Debug|x64.Build.0 = Debug|x64
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Debug|x86.Build.0 = Debug|Win32
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Release|x64.ActiveCfg = Release|x64
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Release|x64.Build.0 = Release|x64
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Release|x86.ActiveCfg = Release|Win32
+		{FEDFBDCA-AD2F-4DCE-A541-7E8659A0807F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

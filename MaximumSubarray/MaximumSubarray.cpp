@@ -4,7 +4,7 @@
 class Solution {
 public:
     int maxSubArray(std::vector<int>& nums) {
-        int maxSum = 0, tmp = nums[0];
+        int maxSum = nums[0], tmp = 0;
         for (int& x : nums)
         {
             tmp = std::max(tmp + x, x);
