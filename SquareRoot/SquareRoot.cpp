@@ -19,6 +19,7 @@ public:
 
     int mySecondSqrt(int x) {
         /// Do a binary serach instead. 
+        /// time complexity is log square root of x
         long long s = 0, e = INT_MAX, ans=0;
         while (s <= e)
         {
