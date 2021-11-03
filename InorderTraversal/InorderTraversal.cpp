@@ -23,6 +23,7 @@ public:
         // itertive approach make use of a stack
         std::vector<int> ans;
         std::stack<TreeNode*> s;
+        if (!root)return ans;
         s.push(root);
         while (!s.empty())
         {
@@ -49,9 +50,16 @@ public:
 private:
     void help(TreeNode* root, std::vector<int>& ans)
     {
+        // base case 
         if (root == NULL) return;
+        
+        // Check left node first 
         help(root->left, ans);
+        
+        // logg current node
         ans.push_back(root->val);
+
+        // check right node last
         help(root->right, ans);
     }
 };
