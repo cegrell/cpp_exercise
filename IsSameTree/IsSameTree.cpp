@@ -23,14 +23,12 @@ private:
         if (left_node == NULL && right_node != NULL || left_node != NULL && right_node == NULL)
         {
             cont = false;
-            std::cout << "Turned false HERE." << std::endl;
             return;
         }
         help(left_node->left, right_node->left, cont);
         if (left_node->val != right_node->val)
         {
             cont = false;
-            std::cout << "Turned false herherer." << std::endl;
             return;
         }
         help(left_node->right, right_node->right, cont);
