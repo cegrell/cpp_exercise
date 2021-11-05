@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddTwoNumbers", "AddTwoNumb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LengthOfLongestSubstring", "LengthOfLongestSubstring\LengthOfLongestSubstring.vcxproj", "{46C95663-F363-48F0-991B-0420CB6A124A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindMedianSortedArrays", "FindMedianSortedArrays\FindMedianSortedArrays.vcxproj", "{52CD557E-4FBF-45B7-90A9-D98F766B7686}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{46C95663-F363-48F0-991B-0420CB6A124A}.Release|x64.Build.0 = Release|x64
 		{46C95663-F363-48F0-991B-0420CB6A124A}.Release|x86.ActiveCfg = Release|Win32
 		{46C95663-F363-48F0-991B-0420CB6A124A}.Release|x86.Build.0 = Release|Win32
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Debug|x64.ActiveCfg = Debug|x64
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Debug|x64.Build.0 = Debug|x64
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Debug|x86.ActiveCfg = Debug|Win32
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Debug|x86.Build.0 = Debug|Win32
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Release|x64.ActiveCfg = Release|x64
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Release|x64.Build.0 = Release|x64
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Release|x86.ActiveCfg = Release|Win32
+		{52CD557E-4FBF-45B7-90A9-D98F766B7686}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
