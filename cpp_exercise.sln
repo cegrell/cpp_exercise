@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathSum", "PathSum\PathSum.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenerateMatrix", "GenerateMatrix\GenerateMatrix.vcxproj", "{58C73A37-F400-40F5-ABA4-8915DA3FAFD8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IsPalindrome", "IsPalindrome\IsPalindrome.vcxproj", "{70EAC41F-7CB6-480C-870B-2C3F80BD8486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{58C73A37-F400-40F5-ABA4-8915DA3FAFD8}.Release|x64.Build.0 = Release|x64
 		{58C73A37-F400-40F5-ABA4-8915DA3FAFD8}.Release|x86.ActiveCfg = Release|Win32
 		{58C73A37-F400-40F5-ABA4-8915DA3FAFD8}.Release|x86.Build.0 = Release|Win32
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Debug|x64.ActiveCfg = Debug|x64
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Debug|x64.Build.0 = Debug|x64
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Debug|x86.ActiveCfg = Debug|Win32
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Debug|x86.Build.0 = Debug|Win32
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Release|x64.ActiveCfg = Release|x64
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Release|x64.Build.0 = Release|x64
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Release|x86.ActiveCfg = Release|Win32
+		{70EAC41F-7CB6-480C-870B-2C3F80BD8486}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
