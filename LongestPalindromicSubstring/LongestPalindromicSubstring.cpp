@@ -22,8 +22,7 @@ public:
     
     std::string longestPalindrome(std::string s) {
         if (s.length() <= 1) return s;
-        int max_len = 1, n = s.length();
-        int st = 0, end = 0;
+        int max_len = 1, n = s.length(), st = 0;
         for (int i = 0; i < n - 1; ++i)
         {
             int l = i, r = i + 1;
