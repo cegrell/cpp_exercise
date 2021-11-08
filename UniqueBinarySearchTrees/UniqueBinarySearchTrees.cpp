@@ -4,6 +4,7 @@
 class Solution {
 public:
     int numTrees(int n) {
+        /// This is called the Nth-Catalan number.
 
         std::vector<int> res(n + 1, 0);
 
