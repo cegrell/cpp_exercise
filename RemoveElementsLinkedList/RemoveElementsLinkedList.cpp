@@ -24,7 +24,7 @@ public:
         ListNode* node = head;
         while (node != nullptr)
         {
-            if (node->next != nullptr && node->next->val == val) //&& node->next->next != nullptr 
+            if (node->next != nullptr && node->next->val == val)
             {
                 ListNode* tmp_node = node->next->next;
                 // Many vals in row, move forward till != val
