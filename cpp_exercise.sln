@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BalancedTree", "BalancedTre
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HasCycle", "HasCycle\HasCycle.vcxproj", "{D6EF500C-E6F5-4619-967A-4759DD3BA9ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UniquePaths", "UniquePaths\UniquePaths.vcxproj", "{6260B561-9A93-4836-94DB-F1AE618CD6D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{D6EF500C-E6F5-4619-967A-4759DD3BA9ED}.Release|x64.Build.0 = Release|x64
 		{D6EF500C-E6F5-4619-967A-4759DD3BA9ED}.Release|x86.ActiveCfg = Release|Win32
 		{D6EF500C-E6F5-4619-967A-4759DD3BA9ED}.Release|x86.Build.0 = Release|Win32
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Debug|x64.ActiveCfg = Debug|x64
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Debug|x64.Build.0 = Debug|x64
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Debug|x86.Build.0 = Debug|Win32
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Release|x64.ActiveCfg = Release|x64
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Release|x64.Build.0 = Release|x64
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Release|x86.ActiveCfg = Release|Win32
+		{6260B561-9A93-4836-94DB-F1AE618CD6D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
